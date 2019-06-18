@@ -1,0 +1,19 @@
+{
+  "name": "oekeur/gpnl-assessment",
+  "description": "This repository is for a small assesment test for prospective developers",
+  "type": "wordpress-plugin",
+  "version": "0.0.1",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Greenpeace Netherlands",
+      "email": "planet4-group@greenpeace.org"
+    }
+  ],
+  "require":{
+    "greenpeace/planet4-child-theme-netherlands" : '2.*'
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "0.13.*",
+  },
+}
