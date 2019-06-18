@@ -1,0 +1,668 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.social-icon {
+    display: inline-block;
+    max-height: 20px;
+    position: relative;
+    margin-left: 8px;
+    margin-right: 8px;
+    float: right;
+    margin-top: 11px;
+}
+
+#social-text {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+#share-buttons {
+    max-height: 45px;
+    position: absolute;
+    background-color: #f98667;
+    top: 0;
+    right: 0;
+    float: right;
+    border-radius: 0 0 0 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-family: montserrat-bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#logo-mispaksel {
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+.phero {
+    color: #fff;
+    font-family: montserrat-light;
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#stem-en-win {
+    color: #fff;
+    font-family: montserrat-bold;
+    font-size: 45px;
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#hero {
+    background-image: url("../img/hero-bg.jpg");
+    background-size: 100%;
+    padding: 50px;
+}
+
+.stemkaart {
+    max-width: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 15px 0 15px;
+    box-shadow: 0px 18px 26px -13px rgba(0,0,0,0.75);
+    float: left;
+    right: -50%;
+}
+
+.stemp {
+    color: #b6cccc;
+    font-family: montserrat-semibold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 80%;
+    font-size: 14px;
+}
+
+.stemh2 {
+    color: #74777c;
+    font-family: montserrat;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40%;
+}
+
+.stemkaart-img {
+    max-width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stem-button {
+    color: #fff;
+    background-color: #f98667;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    margin-left: -15px;
+    padding-right: 30px;
+    height: 34px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.active, .stem-button:hover {
+    background-color: #ff7336;
+}
+
+.stembutton-text {
+    font-family: montserrat-bold;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+
+.input-fields {
+  height: 0;
+  -webkit-transition: height .4s;
+  transition: height .4s;
+  overflow: hidden;
+  position: relative;
+}
+
+.input-fields.open {
+  height: 210px;
+}
+
+/* .input-fields input {
+  display: none;
+} */
+
+/* .input-fields.open input {
+  display: block;
+} */
+
+.under-stem {
+
+}
+
+.veld {
+    font-family: montserrat;
+    border-style: solid;
+    border-color: #74777c;
+    border-width: 1px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+}
+.stemknop {
+    background-color: #ff80e9;
+    border-color: #ff80e9;
+    color: #fff;
+    border-radius: 20px;
+    font-family: montserrat-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 120%;
+    letter-spacing: 2px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.stem-widget {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+#petitie-balk {
+    background-color: #00748f;
+    height: 130px;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+#balk-tekst {
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    font-family: montserrat;
+    font-size: 20px;
+    text-transform: uppercase;
+    max-width: 400px;
+    letter-spacing: 3px;
+    padding-right: 40px;
+}
+
+#button {
+    background-color: #ff80e9;
+    border-color: #ff80e9;
+    color: #fff;
+    border-radius: 20px;
+    font-family: montserrat-bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    max-width: 110px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    box-shadow: 0px 10px 18px -5px rgba(0,0,0,0.30);
+}
+
+.wrapper {
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-header {
+    font-family: montserrat-bold;
+    font-size: 28px;
+    text-align: left;
+    color: #b6cccc;
+}
+
+.body-text {
+    font-family: montserrat;
+    font-size: 16px;
+    text-align: justify;
+    color: #58595b;
+    letter-spacing: 1px;
+}
+
+.text-block {
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.parallax-background-1 {
+    height: 350px;
+    background-image: url("../img/duiker.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+
+    transition: 0s ease;
+    transition-property: background-position;
+}
+
+.parallax-background-2 {
+    height: 350px;
+    background-image: url("../img/flesje.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.para-image {
+
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
